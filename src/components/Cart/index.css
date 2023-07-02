@@ -1,0 +1,103 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+
+/* Write your CSS here */
+.cart-remove-all-button {
+  background-color: transparent;
+  border-width: 0px;
+  font-size: 16px;
+  color: #0b69ff;
+  font-weight: 700;
+  text-align: right;
+  cursor: pointer;
+}
+
+.cart-total-price-container {
+  margin-left: auto;
+}
+
+.cart-price-container {
+  display: flex;
+  align-items: center;
+}
+
+.cart-total-price-total-para {
+  color: #52606d;
+  font-weight: 500;
+  font-size: 24px;
+  margin: 0px;
+  margin-right: 10px;
+}
+.cart-total-price-price-para {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.cart-total-price-quantity-para {
+  color: #52606d;
+  font-weight: 500;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+.cart-total-price-button {
+  width: 100%;
+  font-family: 'Roboto';
+  font-size: 12px;
+  height: 35px;
+  color: #ffffff;
+  background-color: #0967d2;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .cart-total-price-total-para {
+    font-size: 20px;
+  }
+  .cart-total-price-price-para {
+    font-size: 22px;
+  }
+  .cart-total-price-quantity-para {
+    font-size: 14px;
+  }
+}
