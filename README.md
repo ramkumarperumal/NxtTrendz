@@ -3,5 +3,5 @@ Nxt Trendz - e-commerce site clone
 url : https://ram23nxttrendz.ccbp.tech/
 
 login credentials:
-username: rahul
+username: rahul,
 password: rahul@2021
